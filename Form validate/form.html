@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormVadilation</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h3 id="head"> FORM VALIDATION</h3>
+
+        <form name="validate" action="#" noValidate>
+            <div id="name" class="form ">
+                <label for="fullname">UserName</label>
+                <input type="text" placeholder="Enter your Name" name="fullName" id="fullName">
+                <span class="span"></span>
+            </div>
+            <div id="mail" class="form ">
+                <label for="email">E-mail </label>
+                <input type="email" placeholder="validate2023@gmail.com" name="email" id="email">
+                <span class="span"></span>
+            </div>
+            <div id="intger" class="form">
+                <label for="number">Moblie Number</label>
+                <input type="tel" placeholder="9876543210" name="number" id="number">
+                <span class="span"></span>
+            </div>
+            <div id="pass" class="form">
+                <label for="password">password</label>
+                <input type="password" placeholder="validate@1234" name="password" id="password">
+                <span class="span"></span>
+            </div>
+            <div id="conformPass" class="form ">
+                <label for="conformPassword">Confirm password</label>
+                <input type="password" placeholder="validate@1234" name="confirmPassword" id="conformPassword">
+                <span class="span"></span>
+            </div>
+                <button id="btn"> Sumbit</button>
+                <p>Alredy User ? <a href="./login.html">Login</a></p>
+        </form>
+
+       
+        
+    </div>
+
+ 
+    <script src="./form.js"></script>
+</body>
+
+</html>
